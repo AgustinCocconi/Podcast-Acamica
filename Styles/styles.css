@@ -30,6 +30,7 @@
       }
       
       .nav-links a {
+          text-transform: uppercase;
           text-decoration: none;
           color: #060A24;
           font-size: 16px;
@@ -103,7 +104,7 @@
           position: relative;
           transform: skewY(-6deg);
           top: 85px;
-          height: 1042.6px;
+          height: 120vh;
           background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
           display: flex;
       }
@@ -116,4 +117,30 @@
           display: grid;
           grid-template-columns: 620px 620px;
           grid-template-rows: 268px 268px;
+      }
+
+      .section-us{
+          display: flex;
+          position: relative;
+          margin-left: 13.9%;
+        
+      }
+
+      .phone {
+          max-width: 31.8%;
+          max-height: 16.9%;
+      }
+      .where{
+          
+      }
+      .invitadas{
+          display: flexbox;
+          font-size: 0;
+          
+      }
+
+      .child{
+        margin: -1px;
+        max-height: 9.3%;
+        max-width: 33.3%;
       }
