@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
+    color: #060A24;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -39,12 +40,14 @@ nav {
 }
 
 main {
+    color: #060A24;
     margin-left: 200px;
     margin-right: 500px;
     letter-spacing: 0px;
     border: 1px;
     font-family: 'IBM Plex Sans', sans-serif;
     display: grid;
+    margin-top: 20vh;
     grid-template-columns: 152px 179px 391px 18px;
     font-size: 64px;
 }
@@ -68,6 +71,7 @@ main {
 }
 
 .subtitle {
+    color: #060A24;
     display: grid;
     grid-template-columns: 628px;
     font-family: 'IBM Plex Mono', monospace;
@@ -126,6 +130,7 @@ main {
 }
 
 .section-us h2 {
+    color: #060A24;
     margin-top: 25%;
     margin-left: 8%;
     font-size: 48px;
@@ -134,6 +139,7 @@ main {
 }
 
 .section-us p {
+    color: #060A24;
     font-size: 16px;
     line-height: 24px;
     max-width: 64.2%;
@@ -150,6 +156,7 @@ main {
 }
 
 .invitadas h2 {
+    color: #060A24;
     font-family: "IBM Plex Sans";
     font-weight: normal;
     font-size: 48px;
@@ -169,6 +176,7 @@ main {
 }
 
 .topics h2 {
+    color: #060A24;
     font-family: "IBM Plex Sans";
     font-weight: normal;
     font-size: 48px;
@@ -183,6 +191,7 @@ main {
 }
 
 .child {
+    color: #060A24;
     display: flex;
     flex-direction: column;
     width: 18.1%;
@@ -248,11 +257,20 @@ main {
     text-align: center;
 }
 footer {
+    color: #060A24;
     position: absolute;
     bottom: 1;
-    height: 8vh;
+    height: 10vh;
     font-family: "IBM Plex Mono";
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-left: 6%;
+}
+#icon {
+    letter-spacing: 36px;
+}
+span {
+    display: flex;
+    justify-content: right;
+    margin-left: 57vw;
 }
